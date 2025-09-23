@@ -1,0 +1,38 @@
+Diya wants to know how the decimal digit values are performing in programming.could you please help her to learn the decimal formatting.
+
+Input Format
+
+input consists of float
+Constraints
+
+No Constraints
+
+Output Format
+
+execute the values depends on the sample output format.
+Sample Input 0
+
+45.3456
+Sample Output 0
+
+45.34
+45.35
+Contest ends in 7 days
+Submissions: 46
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+2
+import math
+3
+val=float(input())
+4
+print(math.floor(val*100)/100)
+5
+print("{:.2f}".format(val))
