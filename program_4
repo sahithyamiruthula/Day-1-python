@@ -1,0 +1,61 @@
+kumar wants to know how the math functions are working in programming.could you please help him to write the program.
+
+Input Format
+
+First input corresponds to float is for floor,ceil and round
+second input corresponds to integer is for sqrt value
+third input corresponds to integer is for base value
+fourth input corresponds to integer is for power value
+Constraints
+
+No Constraints
+
+Output Format
+
+execute the values depends on the sample output format.
+Sample Input 0
+
+67.6734
+16
+5
+2
+Sample Output 0
+
+67
+68
+68
+4
+25
+Contest ends in 7 days
+Submissions: 46
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+2
+import math
+3
+a=float(input())
+4
+print(math.floor(a))
+5
+print(math.ceil(a))
+6
+print(round(a))
+7
+b=int(input())
+8
+print(int(math.sqrt(b)))
+9
+base=int(input())
+10
+power=int(input())
+11
+print(pow(base,power))
+12
+​
